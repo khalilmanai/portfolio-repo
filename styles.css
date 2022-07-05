@@ -5,7 +5,7 @@
     margin: 0;
 }
 .background{
-    height: 130vh;
+    height: 250vh;
     width: 100%;
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
@@ -15,7 +15,7 @@
 }
 .internal-div {
     padding-top: 20px;
-    height: 110vh;
+    height: 200vh;
     width: 680px;
   box-sizing: border-box;
   background-color: #edf2f4;
@@ -32,11 +32,11 @@
 .CircleAvatar{
     width: 120px;
     height: 120px;
-    background-image: url(images\maskedmab.jpg);
+    background-image: url(images/DSC_100.jpg);
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 75% 25%;
     margin: -50px auto 20px;
 }
 .circle{
