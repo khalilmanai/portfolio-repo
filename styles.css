@@ -5,25 +5,27 @@
     margin: 0;
 }
 .background{
-    height: 250vh;
-    width: 100%;
     background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-    position: relative;
-    background-position: center center;
+    background-repeat:no-repeat;
+   position: absolute;
+   display: flex;
     background-size: cover;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    height: 100vh;
+    width: 100%;
+
 }
 .internal-div {
-    padding-top: 20px;
-    height: 200vh;
-    width: 680px;
+display: flex;
+flex-direction: column  ;
+  height: 680px;
+  width: 680px;
   box-sizing: border-box;
   background-color: #edf2f4;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+  position: relative;
+  margin: 70px auto;
   border-radius: 1%;
+  justify-content: center;
 
 
 
@@ -83,7 +85,7 @@ align-content: center;
    
 border: none;
 
-transition: 1s;
+transition: all 1s;
 cursor: pointer;
 }
 
@@ -111,9 +113,9 @@ cursor: pointer;
     width: 650px;
     height: 150px;
     display: flex;
-    flex-direction: row;
-   flex-flow: wrap;
-    justify-content:space-around;
+ 
+   flex-wrap: wrap;
+    justify-content:center;
    margin: auto;
   
 }
